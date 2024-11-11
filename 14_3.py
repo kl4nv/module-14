@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup
 
-dp = Dispatcher(Bot(token='7906075719:AAEPpg5hor0Nlk_DZXw5bsIIh3d3cVobHU4'), storage=MemoryStorage())
+dp = Dispatcher(Bot(token='API'), storage=MemoryStorage())
 kb = ReplyKeyboardMarkup(
     keyboard=[
         [
